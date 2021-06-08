@@ -26,13 +26,15 @@
     </div>
     <div class="right">
       <div class="flex">
-        <div class="list">Strategy</div>
-        <div class="list">SMM</div>
-        <div class="list">Copywriting</div>
-        <div class="list">Design</div>
-        <div class="list">Storymaking</div>
-        <div class="list">Target</div>
-        <div></div>
+        <div class="flex-col">
+          <div class="list">Strategy</div>
+          <div class="list">SMM</div>
+          <div class="list">Copywriting</div>
+          <div class="list">Design</div>
+          <div class="list">Storymaking</div>
+          <div class="list">Target</div>
+          <div></div>
+        </div>
       </div>
     </div>
   </div>
@@ -55,6 +57,17 @@ export default {}
   justify-items: stretch;
   justify-content: space-between;
 }
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  .list {
+    /*  font-size: 2rem;
+    font-family: $mdex; */
+  }
+}
+
 .service {
   @include standardGridContainer;
   row-gap: 25%;

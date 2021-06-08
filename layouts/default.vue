@@ -56,7 +56,6 @@ header {
   left: 0;
   width: 100%;
   background: white;
-  border: 1px solid green;
   box-sizing: border-box;
   padding: 5% 5% 0 5%;
 
