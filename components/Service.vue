@@ -24,7 +24,17 @@
         <div class=""><div class="title-big">Marketing</div></div>
       </div>
     </div>
-    <div class="right">фывфывыфвыфв</div>
+    <div class="right">
+      <div class="flex">
+        <div class="list">Strategy</div>
+        <div class="list">SMM</div>
+        <div class="list">Copywriting</div>
+        <div class="list">Design</div>
+        <div class="list">Storymaking</div>
+        <div class="list">Target</div>
+        <div></div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -78,7 +88,7 @@ export default {}
   text-align: center;
   .elipse {
     position: absolute;
-    top: 30%;
+    top: 27%;
     left: 0;
     border: 1px solid black;
     border-top-left-radius: 50% 50%;

@@ -49,4 +49,17 @@
 export default {}
 </script>
 
-<style scoped></style>
+<style scoped>
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: white;
+  border: 1px solid green;
+  box-sizing: border-box;
+  padding: 5% 5% 0 5%;
+
+  z-index: 10000;
+}
+</style>

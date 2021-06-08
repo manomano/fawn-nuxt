@@ -8,7 +8,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 12%;
-  /* height: 90vh; */
+  height: 90vh;
 }
 
 @mixin menuAfter {
