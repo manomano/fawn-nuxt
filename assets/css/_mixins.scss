@@ -1,0 +1,43 @@
+@mixin bigTitle {
+  color: black;
+  font-size: 5rem;
+  font-family: 'dad';
+}
+
+@mixin standardGridContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 12%;
+  /* height: 90vh; */
+}
+
+@mixin menuAfter {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: -2.8rem;
+  top: -1.2rem;
+  border: 1px solid black;
+  border-top-left-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  transform: rotate(-5.52deg);
+}
+
+@mixin ellipse {
+  position: absolute;
+  top: -35%;
+  left: -3px;
+  border: 1px solid black;
+  border-top-left-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  transform: rotate(-5.52deg);
+  width: 100%;
+  height: 7rem;
+  background: black;
+  z-index: -1;
+}
